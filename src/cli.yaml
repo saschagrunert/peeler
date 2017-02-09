@@ -1,0 +1,18 @@
+name: peeler
+author: Sascha Grunert <mail@saschagrunert.de>
+about: Peel your network traffic
+after_help: 'More info at: https://github.com/saschagrunert/peeler'
+global_settings:
+  - VersionlessSubcommands
+  - ColoredHelp
+
+args:
+  - interface:
+      help: Set the network interface to listen
+      long: interface
+      short: i
+      takes_value: true
+  - verbose:
+      help: Set the verbosity level (maximum four `v`)
+      short: v
+      multiple: true
