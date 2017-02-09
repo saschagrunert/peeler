@@ -1,5 +1,5 @@
 # peeler
-## peel your networks traffic
+## peel your network traffic
 This project is currently under development and has no working version yet.
 
 ## Contributing
